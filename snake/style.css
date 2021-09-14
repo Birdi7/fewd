@@ -1,0 +1,31 @@
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #0058b5;
+}
+
+.snake-yellow {
+  background-color: #f7ce00;
+}
+
+.apple {
+  /* background-color: purple; */
+  background-image: url('./ru.jpg');
+  background-size: contain;
+}
+
+#fail-msg {
+  visibility: hidden;
+  width: 200px;
+}
